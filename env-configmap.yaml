@@ -1,0 +1,15 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: example-configmap
+data:
+  # Configuration values can be set as key-value properties
+  postgres_host: test-338660580851-dev.cgydea6vdaff.us-east-1.rds.amazonaws.com
+  postgres_db: testdev
+  postgres_username: blessing
+  postgres_password: blessing
+  AWS_BUCKET: arn:aws:s3:::test-338660580851-dev
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  JWT_SECRET: testing
+  URL: http://localhost:8100
